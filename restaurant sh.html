@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100;vh
+        }
+        header {
+            background-color: #D9DFC6;
+            color: Black;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .Hero {
+            color: rgb(6, 6, 6);
+            background-color: #70b8e2 ;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: rgb(3, 3, 3);
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(2, 27, 252);
+        }
+        button{
+            background-color: red;
+            color:white ;
+            border-radius: 8px;
+        }
+        .section1{
+            padding: 20px;
+            text-align: center;
+            color: #fefdfd;
+        }
+        .restaurant-card {
+            display: inline-block;
+            margin: 20px;
+            width: 300px;
+            border: 5px solid #f1f2f3;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(5, 97, 184, 0.1);
+            background-color: rgb(246, 248, 248);
+            color: black;
+            font-size: 15px;
+            height: 450px;
+        }
+
+        .restaurant-card img {
+            width: 100%;
+            height: 300px;
+        }
+
+        .restaurant-card h3 {
+            margin: 10px 0;
+        }
+        #welcome{
+            text-align: center;
+        }
+        .restaurant-card{
+            width: 300px;
+            height: auto;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .restaurant-card:hover{
+            transform: scale(1.5) ;
+            filter: brightness(150%);
+        }
+        li,a{
+            text-decoration: none;
+            display: inline;
+            color: red;
+            padding: 15px;
+            font-size:larger;
+        }
+        header{
+            background-color: black;
+            padding: 10px;
+        }
+        a:hover{background-color: white;
+        }
+        body{
+            background-image: url(love.jpg);
+            background-repeat: no repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">BOOK MY RESTAURANT</div>
+        <nav>
+            <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="menu sh.html"><li>Menu</li></a>
+                <a href="restaurant sh.html"><li>Services</li></a>
+                <a href="https://www.instagram.com/"><li>Contact us</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class="Hero">
+        <h1>Welcome To Book My Restaurant</h1>
+    </section>
+    <section class="section1">
+        <h2>5 star rated restaurant</h2>
+        <div class="restaurant-card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMoEqvHhLlVNHITbhWpvQD9QGrLyhvLWpylGjVw=s680-w680-h510" alt="Tandoor A Garden Restaurant"> 
+            <h3>Tandoor A Garden Restaurant</h3>
+            <p>
+                3.8(1.9K)· Restaurant
+                TALUKA, Tal, VILLAGE LIMDA, Waghodia Rd
+                Dine-in·
+                Takeaway·.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipMtKeRuFNKMOr5hPbqa3PYpef4ZK0J9OMub2k65=w260-h175-n-k-no" alt="Vraj kathiyawadi restaurant">
+            <h3>Vraj kathiyawadi restaurant</h3>
+            <p>
+                3.5(134) · ₹200–400 · Restaurant
+                Waghodiya road, near parul university
+                Dine-in·
+                Takeaway.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOHQg1xtzzSz6TynrnSvUO4lI1eo1GWTjXJ-nL4=s680-w680-h510" alt="Le Prive World Cuisine"> 
+            <h3>Le Prive World Cuisine</h3>
+            <p>
+                4.5(2.5K) · Fine Dining
+                First Floor, 17/B, opposite Reliance Fresh.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPjHH1WkqgCmCRhvZE5kdkIFJnqZpSvjxH-vQiz=s680-w680-h510" alt="Spice Kraft Restaurant"> 
+            <h3>Spice Kraft Restaurant</h3>
+            <p>
+                4.2(628) North Indian
+                opposite BSNL Offices &
+                Airy locale serving global cooking.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+    </section>
+    <section class="section1">
+        <div class="restaurant-card">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipPWMw6RW79UA-G58GObQGmWi9E8GkGWYhWlp2ES=w260-h175-n-k-no" alt="Candle Light Date N Dinner"> 
+            <h3>Candle Light Date N Dinner</h3>
+            <p>Roof top Restaurant Vadodara
+                4.8(985) · Restaurant
+                5th Floor, 504.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPZ0u6P6eZgnvQ-RntGQGtrc-QOhSl3IRXnyYnC=s680-w680-h510" alt="Stellar Kitchen - Best Restaurant ">
+            <h3>Stellar Kitchen - Best Restaurant </h3>
+            <p> In Vadodara | Restaurant with Live Music 4.4(3.9K) Fine Dining.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPZeYVf0oJxCWi5l4oUyieX71CrTvv9SNxyVM1H=s680-w680-h510" alt="Thyme & Whisk - Best Restaurant"> 
+            <h3> Thyme & Whisk - Best Restaurant </h3>
+            <p> In Vadodara 4.4(2.5K) Continental restaurant
+                GF/Shop:03 Emerald Building.</p>
+            <button onclick="Booknow()">Book now</button>
+            <script>
+                function Booknow(){
+                    window.location.href="reservation sh.html"
+                }
+            </script>
+        </div>
+        <div class="restaurant-card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNuiDkXYUirGM9Js_qs0MDAmyiFceqXd0nc1vq8=s680-w680-h510" alt="Teal Restaurant"> 
+            <h3>Teal Restaurant</h3>
+            <p>
+                4.4(349) · Western
+                Fairfield by Marriott
+                Dine-in·
+                Takeaway·
+                Delivery.</p>
+                <button onclick="Booknow()">Booknow</button>
+                <script>
+                    function Booknow(){
+                        window.location.href="reservation sh.html"
+                    }
+                </script>
+        </div>
+    </section>
+    
+</body>
+</html>

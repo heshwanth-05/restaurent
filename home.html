@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100;vh
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align:center;
+            padding: 20px;
+        }
+        h2{
+            color: rgb(6, 6, 6);
+        }
+        .dishes{
+            padding: 20px;
+            text-align: center;
+            color: #cfd9e2;
+        }
+        .dishes-card {
+            display: inline-block;
+            margin: 20px;
+            width: 300px;
+            border: 5px solid #f1f2f3;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(5, 97, 184, 0.1);
+            background-color: rgb(246, 248, 248);
+            color: black;
+            font-size: 15px;
+            height: 450px;
+        }
+
+        .dishes-card img {
+            width: 100%;
+            height: 300px;
+        }
+
+        .dishes-card h3 {
+            margin: 10px 0;
+        }
+        #welcome{
+            text-align: center;
+        }
+        .dishes-card button{
+            background-color: rgb(246, 74, 74);
+            color: rgb(254, 253, 253);
+            height: 30px;
+            width: 100px;
+            border-radius: 8px;
+        }
+        button:hover{
+            color:rgb(246, 74, 74) ;
+            background-color:rgb(254, 253, 253) ;
+            transition: opacity 0.5s ease;
+        }
+        .dishes-card{
+            width: 300px;
+            height: auto;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .dishes-card:hover{
+            transform: scale(1.5) ;
+            filter: brightness(150%);
+        }
+        footer{
+            color: white;
+            background-color: black ;
+            text-align: center;
+            padding-top: 25px;
+            height: 60px;
+        }
+        li,a{
+            text-decoration: none;
+            display: inline;
+            color: red;
+            padding: 15px;
+            font-size:larger;
+        }
+        header{
+            background-color: black;
+            padding: 10px;
+        }
+        a:hover{background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="menu sh.html"><li>Menu</li></a>
+                <a href="restaurant sh.html"><li>Services</li></a>
+                <a href="https://www.instagram.com/"><li>Contact us</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="section1">
+        <h3 id="welcome">WELCOME TO HOME PAGE</h3>
+    </section>
+    <section class="dishes">
+        <h2>Popular Dishes</h2>
+        <div class="dishes-card">
+            <img src="chicken.jpeg"> 
+            <h3>tANDOORI cHICKEN</h3>
+            <p>Mild and sweet (lean) to rich and strong (fatty).</p>
+            <button onclick="">Order</button>
+        </div>
+        <div class="dishes-card">
+            <img src="fish.jpeg" alt="Tandoori fish tikka">
+            <h3>TANDOORI FISH TIKKA</h3>
+            <p>Giving you a healthy boost of protein and omega 3.</p>
+            <button onclick="">Order</button>
+        </div>
+        <div class="dishes-card">
+            <img src="biryani.jpeg" alt="Salmon curry recipe"> 
+            <h3>cHICKEN BIRYANI</h3>
+            <p>warm, robust spicy taste as a result of combining roasted.</p>
+            <button onclick="">Order</button>
+        </div>
+        <div class="dishes-card">
+            <img src="fry biryani.jpeg" alt="FRY BIRYANI"> 
+            <h3>FRY BIRYANI</h3>
+            <p>The best dish the quality of rice.</p>
+            <button onclick="">Order</button>
+    </section>
+    <section class="dishes">
+        <h2>Popular VEG Dishes</h2>
+        <div class="dishes-card">
+            <img src="paneer tikka.jpeg"> 
+            <h3>PANEER TIKKA</h3>
+            <p>Bland taste compared to other.</p>
+            <button onclick="">Order</button>
+        </div>
+        <div class="dishes-card">
+            <img src="paneer.jpeg" alt="PANEER BIRYANI">
+            <h3>PANEER BIRYANI</h3>
+            <p>Giving you a healthy boost of protein.</p>
+            <button onclick="">Order</button>
+        </div>
+        <div class="dishes-card">
+            <img src="egg.jpeg" alt="Egg BIRYANI"> 
+            <h3>EGG BIRYANI</h3>
+            <p>A warm blend of cumin, black pepper, allspice, cinnamon, ginger.</p>
+            <button onclick="">Order</button>
+        </div>
+        <div class="dishes-card">
+            <img src="MUSHROOM.jpeg" alt="MASHROOM BIRYANI"> 
+            <h3>MUSHROOM BIRYANI</h3>
+            <p>Spicy and flavorful, with a slightly smoky taste .</p>
+            <button onclick="">Order</button>
+    </section>
+    <footer>
+        Thanks to visiting the menu...!
+    </footer>
+
+</body>
+</html>
